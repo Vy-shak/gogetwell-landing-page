@@ -5,8 +5,9 @@ import Count from "./components/Count";
 import Numbers from "./sections/Numbers";
 import Aipowered from "./components/Aipowered";
 import Solutions from "./components/Solutions";
+import Ourmission from "./components/Ourmission";
 
 
 
 
-export {Hero, Navbar, Video, Numbers, Solutions, Count, Aipowered};
+export {Hero, Navbar, Video, Numbers, Solutions, Count, Aipowered, Ourmission};

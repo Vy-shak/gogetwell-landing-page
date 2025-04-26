@@ -7,7 +7,7 @@ interface SolutionCardProps {
 
 function Solutioncard({ title, description }: SolutionCardProps) {
     return (
-        <div className='flex flex-col justify-start items-start w-full bg-white rounded-md p-4 shadow-md'>
+        <div className='flex border-b-4 border-b-goBlue-500 flex-col justify-start items-start w-full bg-white rounded-md p-4 shadow-md'>
             <div className='w-full h-20 bg-neutral-300 rounded-lg'>
 
             </div>
