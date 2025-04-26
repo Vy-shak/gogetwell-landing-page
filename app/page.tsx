@@ -1,4 +1,4 @@
-import { Hero, Navbar,Video,Numbers } from "./index"
+import { Hero, Navbar,Video,Numbers,Aipowered,Solutions } from "./index"
 
 export default function Home() {
   return (
@@ -8,9 +8,16 @@ export default function Home() {
         <Hero />
       </section>
       <Video />
-      <section className="w-full flex pt-6 md:pt-8  px-4 md:px-6 items-center justify-center">
-        <Numbers/>
+        <section className="w-full flex pt-6 md:pt-8  px-4 md:px-6 items-center justify-center">
+          <Numbers/>
+        </section>
+      <section className="w-full flex pt-6 md:pt-8   items-center justify-center">
+        <Aipowered/>
       </section>
+      <section className="w-full flex pt-6 md:pt-8   items-center justify-center">
+        <Solutions/>
+      </section>
+
     </section>
   );
 }
