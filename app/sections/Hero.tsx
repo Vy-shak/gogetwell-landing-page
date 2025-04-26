@@ -15,8 +15,8 @@ function Hero() {
             </div>
             </div>
             <div className='flex items-center gap-x-4    justify-center w-full'>
-                <Button size={'sm'} className=' bg-white md:py-5 md:px-8 text-neutral-800 font-semibold text-md px-6 py-4 rounded-sm '>Login</Button>
-                <Button size={'sm'} className=' bg-goViolet-600 md:py-5 text-white font-semibold text-md px-6 py-4 rounded-sm '>Get Started</Button>
+                <Button size={'sm'} className=' bg-white border-2 border-goBlue-500 md:py-5 md:px-8 text-goBlue-500 font-semibold text-md px-6 py-4 rounded-sm '>Login</Button>
+                <Button size={'sm'} className=' bg-goBlue-500 border-2 border-goBlue-500 md:py-5 text-white font-semibold text-md px-6 py-4 rounded-sm '>Get Started</Button>
             </div>
         </section>
     )
